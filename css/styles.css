@@ -6,11 +6,22 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screeen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/point.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
 
 body {
+    color: #2e363e;
     font-family: "Open Sans", sans-sereif;
     height: 1000vh;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
